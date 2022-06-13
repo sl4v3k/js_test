@@ -1,0 +1,32 @@
+{
+  "name": "kpj-edgebox-updater",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "license-checker": "license-checker",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.7",
+    "@grpc/proto-loader": "^0.6.9",
+    "async-mutex": "^0.3.2",
+    "axios": "^0.26.0",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "license-checker": "^25.0.1"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "<rootDir>/*.js"
+    ]
+  }
+}
